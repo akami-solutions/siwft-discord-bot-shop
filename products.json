@@ -1,0 +1,9 @@
+{
+  "category": {
+    "product": {
+      "name": "Product Name",
+      "price": "Product Price",
+      "product_id": "1111"
+    }
+  }
+}
