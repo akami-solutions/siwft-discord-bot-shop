@@ -8,16 +8,14 @@ const {readdirSync, readFileSync} = require("fs");
 const {} = require(__dirname+'/products.json');
 const config = process.env;
 
+/**
+ * @description Event Handler, Command Handler by discordjs.guide but a bit changed
+ * @type {Client<boolean>}
+ */
+
+
 // Create a new Discord Client with the name "bot"
 const bot = new  Client({intents: [GatewayIntentBits.Guilds]})
-
-// As soon as the Bot gets online console log a Text
-bot.once(Events.ClientReady, readyClient => {
-    console.log(`The bot is running as ${readyClient.user.username}`)
-})
-
-
-
 
 // Command Handler Setup
 bot.commands = new Collection();
@@ -54,28 +52,6 @@ const rest = new REST().setToken(process.env.DISCORD_BOT_TOKEN);
         console.error(error);
     }
 })();
-// Receiving the Slash Command Interactions
-bot.on(Events.InteractionCreate, async interaction => {
-    if (!interaction.isChatInputCommand()) return;
-    const command = interaction.client.commands.get(interaction.commandName);
-
-    if (!command) {
-        console.error(`No command matching ${interaction.commandName} was found.`);
-        return;
-    }
-
-    try {
-        await command.execute(interaction);
-    } catch (error) {
-        console.error(error);
-        if (interaction.replied || interaction.deferred) {
-            await interaction.followUp({ content: 'There was an error while executing this command!', ephemeral: true });
-        } else {
-            await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
-        }
-    }
-});
-
 // Event Handler
 const eventsPath = join(__dirname, 'events');
 const eventFiles = readdirSync(eventsPath).filter(file => file.endsWith('.js'));
