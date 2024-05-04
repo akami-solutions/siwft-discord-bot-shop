@@ -24,10 +24,10 @@ module.exports = {
         .setName('buy')
         .setDescription('Buy products via our Discord Bot')
         .addStringOption(option =>
-                option.setName("product")
-                    .setDescription("Please choose a product")
-                    .setRequired(true)
-                    .addChoices(...Object.entries(products.category).map(([key, value]) => ({ name: value.name, value: key })))),
+            option.setName("product")
+                .setDescription("Please choose a product")
+                .setRequired(true)
+                .addChoices(...getProductObjects(products))),
     async execute(interaction) {
         await interaction.reply(interaction.options.get('product').value);
     }
