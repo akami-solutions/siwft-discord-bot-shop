@@ -23,7 +23,7 @@ Here is a list of planned programming languages:
 
 ## Why Discord.JS?
 
-Some of you may be wondering, why we specifically chose Discord.JS and the answer is quite simple. Discord.JS is known for its large user base and in many cases, easy implementation. We might switch libraries over time, if I come to the conclusion that another one offers better performance or other benefits.
+Some of you may be wondering why we specifically chose Discord.JS and the answer is quite simple. Discord.JS is known for its large user base and in many cases, easy implementation. We might switch libraries over time, if I come to the conclusion that another one offers better performance or other benefits.
 
 ## Docker Support?
 

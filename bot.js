@@ -1,11 +1,8 @@
-
 require('dotenv').config();
 // Register the Libs
 const {Client,  GatewayIntentBits, Events, Collection, REST, Routes} = require('discord.js');
 const {join} = require("path");
 const {readdirSync, readFileSync} = require("fs");
-// Include the products.json file to initialize the products.
-const {} = require(__dirname+'/products.json');
 const config = process.env;
 
 /**
