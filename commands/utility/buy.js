@@ -1,16 +1,34 @@
-const {SlashCommandBuilder} = require("discord.js");
+const { SlashCommandBuilder } = require('@discordjs/builders');
+const { readFileSync } = require('fs');
+
+let products = readFileSync(__dirname + '/../../products.json', { encoding: 'utf-8', flag: 'r' });
+products = JSON.parse(products);
+
+function getProductObjects(productData) {
+    // Loop through each product category
+    const productObjects = [];
+    for (const category in productData) {
+        // Access each product within the category
+        for (const product in productData[category]) {
+            productObjects.push({
+                name: productData[category][product].name,
+                value: productData[category][product].product_id,
+            });
+        }
+    }
+    return productObjects;
+}
+
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('buy')
         .setDescription('Buy products via our Discord Bot')
-        .addStringOption(option => {
-
-        }),
-    execute(interaction) {
-        const {readFileSync} = require('node:fs');
-        let products = readFileSync(__dirname+'/../../products.json', {encoding: 'utf-8', flag: 'r'});
-        products = JSON.parse(products);
-        console.log(products["category"])
-        interaction.reply("OK");
+        .addStringOption(option =>
+                option.setName("product")
+                    .setDescription("Please choose a product")
+                    .setRequired(true)
+                    .addChoices(...Object.entries(products.category).map(([key, value]) => ({ name: value.name, value: key })))),
+    async execute(interaction) {
+        await interaction.reply(interaction.options.get('product').value);
     }
-}
+};
