@@ -2,8 +2,13 @@
   "category": {
     "product": {
       "name": "Product Name",
-      "price": "Product Price",
+      "price": "5",
       "product_id": "1111"
+    },
+    "product2": {
+      "name": "Product Name 2",
+      "price": "2",
+      "product_id": "1113"
     }
   }
 }
