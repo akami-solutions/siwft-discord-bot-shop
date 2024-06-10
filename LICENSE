@@ -1,15 +1,64 @@
-Custom Non-Commercial ShareAlike License 1.0
+Akami Solutions Public License (ASPL) v1.0
 
-Permissions:
-This software may be shared, copied, and redistributed in any medium or format.
+© 2024 Akami Solutions, https://licenses.akami-solutions.cc
+Contact: contact@akami-solutions.cc
+Copyright-, DMCA-, License Violation: dmca@akami-solutions.cc
 
-Conditions:
-This software should not be used for Commercial purposes.
-Credit must be given to the original creator of the software. This includes an acknowledgement of the software's creator and a link to the original software.
-This software can be changed and built upon for personal use only.
-If the software has been remixed, transformed, or built upon, it should be distributed under the same license as this original software.
-The software can't be re-distributed without making changes.
-Suggestions for changes on GitHub to improve the software are permitted.
+IMPORTANT: THIS IS A LEGALLY BINDING DOCUMENT. READ THIS AGREEMENT CAREFULLY BEFORE USING, MODIFYING, OR DISTRIBUTING THE CODE. THE USE, MODIFICATION, OR DISTRIBUTION OF THE CODE IS SUBJECT TO THE TERMS OF THIS LICENSE. BY USING, MODIFYING, OR DISTRIBUTING THE CODE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS LICENSE.
 
-Limitations:
-Building upon this software, other than suggesting changes on GitHub or adjusting for personal use, is strictly not allowed.
+Preamble
+
+This license ("Akami Solutions Public License" or "ASPL") is provided by Akami Solutions ("We" or "Us") to regulate the use, modification, and distribution of the underlying code under the following terms. The aim of this license is to define the rights and obligations of all parties involved and to ensure that the code remains freely accessible for the benefit of the entire community.
+
+This license applies to all previous and subsequent versions of the project.
+
+Section 1: Definitions
+
+1. "Project Owner": The term "Project Owner" refers to the original author or authors of the code released under this license. The Project Owner is the natural or legal person who owns the original rights to the code.
+2. "Code": The term "Code" refers to the source code, including any modifications, derivations, and derivative works released under this license.
+3. "Commercial Use": The term "Commercial Use" refers to any use of the code that aims to generate financial profit or support a business activity, regardless of whether the user directly benefits from the use or not.
+
+Section 2: Prohibited Uses
+
+Under this license, it is expressly prohibited to:
+
+1. Commercial Use: The use of the code for commercial purposes is strictly prohibited in any form. This includes, without limitation, selling, licensing, renting, or providing the code as part of a commercial product or service.
+2. Resale: Any resale of the code or derivative works is prohibited. This includes direct sale, distribution for a fee, or inclusion of the code in commercial products or services.
+3. Insertion of AI-generated Code: The insertion of code generated wholly or partly by artificial intelligence is prohibited. This is to protect the integrity of the code and prevent potential security risks.
+4. Insertion of Malicious Code: The insertion of malicious code, including malware, worms, or viruses, is strictly prohibited. This includes any actions aimed at compromising the integrity or security of the code or violating the rights of other users.
+
+Section 3: Permitted Uses
+
+Under this license, the following uses are expressly permitted:
+
+1. Modify Code: The code may be modified as desired to meet the user's requirements and needs.
+2. Replicate: The code may be copied and replicated in unmodified or modified form to promote distribution and availability for the community.
+3. Distribute: The code and derivative works may be distributed, provided that the distribution complies with the terms of this license and maintains the integrity of the code.
+4. Create Derivative Works: It is permitted to create new works based on the original code, provided that these new works also comply with the terms of this license.
+
+Section 4: Conditions
+
+The following conditions must be adhered to for any use, modification, or distribution of the code under this license:
+
+1. Mention of the Project Owner: The Project Owner must be mentioned in an appropriate manner in the documentation, user interfaces, and all accompanying materials that use, modify, or distribute the code.
+2. Same License: All copies, modifications, and derivative works must be published under this same license. This means that any distribution of the code or derivative works must only occur under the terms of this license.
+
+Section 5: Disclaimer of Liability
+
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Section 6: Retention and Amendment of License
+
+We reserve the right to modify or update this license. Any changes or updates to this license will be published on our website and will take effect immediately. It is the responsibility of the user to regularly review the current version of this license.
+
+Section 7: Choice of Law and Jurisdiction
+
+This license is governed by the laws of Austria, and any disputes related to this license are subject to the exclusive jurisdiction of the courts of Vienna.
+
+Section 8: Acceptance of License
+
+By using, modifying, or distributing the code, you expressly agree to the terms of this license. If you do not agree with the terms of this license, you are not authorized to use, modify, or distribute the code.
+
+Section 9: Contact Information
+
+For questions or concerns regarding this license, please contact us at contact@akami-solutions.cc.
